@@ -1,3 +1,10 @@
+### Elvish Shell Completion for the Apache OpenWhisk CLI (wsk)
+### Usage: add following lines to your ~/.elvish/rc.elv:
+### ```
+### epm:install github.com/trieloff/elvish-completions
+### use github.com/trieloff/elvish-completions/wsk
+### ```
+
 use epm
 epm:install github.com/zzamboni/elvish-completions
 use github.com/zzamboni/elvish-completions/comp
