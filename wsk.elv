@@ -10,6 +10,7 @@ use epm
 epm:install github.com/zzamboni/elvish-completions
 use github.com/zzamboni/elvish-completions/comp
 use re
+use str
 
 # OpenWhisk CLI
 
