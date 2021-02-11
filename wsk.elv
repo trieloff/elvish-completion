@@ -48,7 +48,7 @@ fn -wsk-funky-activations []{
     found = (re:find "^(......)(.*)$" $struct[2]); 
     end = $found[groups][2][text];
     start = $found[groups][1][text];
-    display-suffix = (joins " " ["… at" $struct[0] $struct[1]]);
+    display-suffix = (str:join " " ["… at" $struct[0] $struct[1]]);
     comp:decorate &style="blue" &display-suffix=$display-suffix &code-suffix=$end $start })
     (comp:decorate &style="cyan" --last)]
 }
